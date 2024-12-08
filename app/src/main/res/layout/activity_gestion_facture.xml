@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestionFacture">
+
+    <!-- Button for "Ajouter Facture" -->
+    <Button
+        android:id="@+id/btnAjoutF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/facture_ajout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+
+    <!-- Button for "Supprimer Facture" -->
+    <Button
+        android:id="@+id/btnSuppressionF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/facture_suppression"
+        app:layout_constraintTop_toBottomOf="@+id/btnAjoutF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Button for "Modifier Facture" -->
+    <Button
+        android:id="@+id/btnModificationF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/facture_modification"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuppressionF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Button for "Consulter Facture" -->
+    <Button
+        android:id="@+id/btnConsultationF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/facture_consultation"
+        app:layout_constraintTop_toBottomOf="@+id/btnModificationF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Button for "Retour" -->
+    <Button
+        android:id="@+id/btnRetourF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/retour"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultationF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="32dp"
+        android:padding="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

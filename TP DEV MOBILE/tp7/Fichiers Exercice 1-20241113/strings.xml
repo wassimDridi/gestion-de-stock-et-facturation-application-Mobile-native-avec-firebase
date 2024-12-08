@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Param_Simple</string>
+    <string name="nom_amp_pr_nom"><![CDATA[Nom & Prénom]]></string>
+    <string name="motoris">Motorisé</string>
+    <string name="age">Age</string>
+    <string name="passer_param_tres_solution_1">Passer Paramètres Solution 1</string>
+    <string name="passer_param_tres_solution2">Passer Paramètres Solution2</string>
+    <string name="app1">App1</string>
+    <string name="app2">App2</string>
+</resources>

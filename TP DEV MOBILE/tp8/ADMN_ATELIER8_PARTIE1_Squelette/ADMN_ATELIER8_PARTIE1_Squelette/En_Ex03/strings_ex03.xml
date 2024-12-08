@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profil Tel</string>
+    <string-array name="sonneries">
+        <item>Sonnerie 0</item>
+        <item>Sonnerie 1</item>
+        <item>Sonnerie 2</item>
+    </string-array>
+</resources>

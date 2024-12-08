@@ -1,0 +1,45 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ScannerAjouter</string>
+
+    <!-- General Actions -->
+    <string name="ajouter">Ajouter</string>
+    <string name="retour">Retour</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="modifier">Modifier</string>
+    <string name="consultation">Consultation</string>
+
+    <!-- Menu Options -->
+    <string name="gestionP">Gestion Produits</string>
+    <string name="gestionF">Gestion Facture</string>
+
+    <!-- Common Strings -->
+    <string name="select_product_id">Select Product ID</string>
+    <string name="scan_codebar">Scan Codebar</string>
+    <string name="consult_product">Consult Product</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="product_details">Product Details</string>
+    <string name="confirm_delete">Confirm Deletion</string>
+
+    <!-- Produit Section -->
+    <string name="produit_ajout">Ajout Produit</string>
+    <string name="produit_suppression">Suppression Produit</string>
+    <string name="produit_modification">Modification Produit</string>
+    <string name="produit_consultation">Consultation Produit</string>
+    <string name="produit_designation">Désignation</string>
+    <string name="produit_prix">Prix</string>
+    <string name="produit_quantite">Quantité</string>
+    <string name="produit_codebar">Code-barres</string>
+
+    <!-- Facture Section -->
+    <string name="btnAddFacture">Ajout Facture</string>
+    <string name="facture_ajout">Ajout Facture</string>
+    <string name="facture_suppression">Suppression Facture</string>
+    <string name="facture_modification">Modification Facture</string>
+    <string name="facture_consultation">Consultation Facture</string>
+    <string name="facture_listproduits">Liste des Produits</string>
+    <string name="facture_totalprix">Prix Total</string>
+    <string name="facture_nomclient">Nom du Client</string>
+    <string name="spinnerFactureIds">selectionnerID</string>
+    <string name="btnConsulterFacture">btnConsulterFacture</string>
+</resources>

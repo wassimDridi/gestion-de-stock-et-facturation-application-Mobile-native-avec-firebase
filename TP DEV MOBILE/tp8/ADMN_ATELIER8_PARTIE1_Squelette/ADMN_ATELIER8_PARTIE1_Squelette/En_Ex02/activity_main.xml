@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.param.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/protocole" />
+
+            <EditText
+                android:id="@+id/edProtocole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/serveur" />
+
+            <EditText
+                android:id="@+id/edServeur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/port" />
+
+            <EditText
+                android:id="@+id/edPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/page" />
+
+            <EditText
+                android:id="@+id/edPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnEnregistrer"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/enregistrer" />
+
+            <Button
+                android:id="@+id/btnAfficher"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/afficher" />
+
+            <Button
+                android:id="@+id/btnEffacer"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/effacer" />
+
+            <Button
+                android:id="@+id/btnParamUsine"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/paramusine" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

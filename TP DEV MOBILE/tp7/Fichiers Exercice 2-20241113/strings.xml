@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recup_Resultat</string>
+    <string name="nouveau">Nouveau</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="age">Age</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+</resources>

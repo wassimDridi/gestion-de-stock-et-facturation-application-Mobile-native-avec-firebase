@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjoutProduit">
+
+    <!-- Input for Designation -->
+    <EditText
+        android:id="@+id/inputDesignation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/produit_designation"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="32dp" />
+
+    <!-- Input for Prix -->
+    <EditText
+        android:id="@+id/inputPrix"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/produit_prix"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/inputDesignation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="16dp" />
+
+    <!-- Input for Quantité -->
+    <EditText
+        android:id="@+id/inputQuantite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/produit_quantite"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/inputPrix"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button for Scanning Barcode -->
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/produit_codebar"
+        app:layout_constraintTop_toBottomOf="@+id/inputQuantite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitProduit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ajouter"
+        app:layout_constraintTop_toBottomOf="@+id/btnScan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="32dp"
+        android:padding="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
